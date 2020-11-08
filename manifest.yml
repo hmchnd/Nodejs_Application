@@ -1,0 +1,7 @@
+applications:
+  - name: hemnodeapp
+    random-route: true
+    path: myapp
+    buidpack: https://github.com/cloudfoundry/nodejs-buildpack
+    host: hemnodeapp
+    memory: 128M
