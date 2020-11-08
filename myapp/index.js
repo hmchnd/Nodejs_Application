@@ -6,11 +6,11 @@ var bodyParser = require('body-parser');
 
 
 var connOptions = {
-    serverNode: "6aac14e3-fc71-4f8d-a765-10a6e63ed9e7.hana.trial-eu10.hanacloud.ondemand.com:443",
+    serverNode: "<DBNODE>",
     encrypt: "true",
     sslValidateCertificate: "false",
     uid: "DBADMIN",
-    pwd: "Shakti@999",
+    pwd: "PWD",
 };
 
 
